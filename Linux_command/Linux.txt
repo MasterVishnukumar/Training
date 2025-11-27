@@ -1,0 +1,65 @@
+Basic Linux Commands
+
+File & Directory Navigation
+--------------------------
+pwd                - Show current working directory
+ls                 - List files and directories
+ls -l              - List with details
+ls -a              - List including hidden files
+cd <directory>     - Change directory
+cd ..              - Go up one directory
+cd ~               - Go to home directory
+
+File & Directory Operations
+---------------------------
+mkdir <name>            - Create a directory
+rmdir <name>            - Remove an empty directory
+touch <file>            - Create an empty file
+cp <source> <dest>      - Copy file
+mv <source> <dest>      - Move/Rename file
+rm <file>               - Remove file
+rm -r <directory>       - Remove directory recursively
+
+Viewing Files
+-------------
+cat <file>              - Display file contents
+less <file>             - View file page by page
+head <file>             - Show first 10 lines
+tail <file>             - Show last 10 lines
+tail -f <file>          - Follow log file updates
+
+System Information
+------------------
+uname -a                - System information
+df -h                   - Disk usage
+free -h                 - Memory usage
+top                     - View running processes
+htop                    - Enhanced top (if installed)
+
+Permissions
+-----------
+chmod <perm> <file>     - Change file permissions
+chown <user>:<group>    - Change file owner
+
+Searching
+---------
+find <path> -name <file>        - Search for files
+grep "<text>" <file>            - Search text in a file
+grep -r "<text>" <directory>    - Recursive search
+
+Package Management (Debian/Ubuntu)
+----------------------------------
+sudo apt update                   - Update package list
+sudo apt upgrade                  - Upgrade packages
+sudo apt install <package>        - Install package
+
+Package Management (RedHat/CentOS)
+----------------------------------
+sudo dnf install <package>        - Install package
+
+User & Admin Commands
+---------------------
+sudo <command>           - Run command as root
+adduser <username>       - Add user
+passwd <username>        - Set user password
+
