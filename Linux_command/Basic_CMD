@@ -1,0 +1,20 @@
+Here are Some Basic command which we use in Linux.
+
+1. cd :- This command is to change directory
+   ex: we have some Directory called Directory_1 , Directory_2 , Linux , Home, etc
+       use cd Linux so will jump into Linux directory.
+cd – returns to the current user’s home directory.
+cd .. – moves a directory up.
+cd – – goes back to the previous directory.
+
+2. pwd :- To check the full path of your current working directory, use the pwd commandit shows the present working directory
+	ex:- pwd [options]
+
+3. ls :-  The ls command lists the content of a folder, including files and directories
+	ex:- ls [options] [directory_or_path] 
+
+4.mkdir command :- The mkdir command lets you create one or multiple directories. 
+5.rmdir command :- Run rmdir to delete empty directories in your Linux system.  
+6.rm command :- The rm command deletes files from a directory.
+7.cp command :- Use the cp command to copy files from your current directory to another folder.
+
